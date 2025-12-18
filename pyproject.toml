@@ -1,0 +1,14 @@
+[project]
+name = "weather-api"
+version = "0.1.0"
+description = "My weather api"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-limiter>=4.1.1",
+    "pytest>=9.0.2",
+    "python-dotenv>=1.2.1",
+    "redis[hiredis]>=7.1.0",
+    "requests>=2.32.5",
+]

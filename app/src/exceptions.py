@@ -1,0 +1,2 @@
+class NoMatchingLocationError(Exception):
+    pass
