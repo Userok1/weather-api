@@ -13,7 +13,7 @@ limiter = Limiter(
     default_limits=["200 per day", "50 per hour"], # Global limits
     storage_uri="memory://",
 )
-app_flask.test_client
+
 
 @app_flask.route("/custom-error")
 def custom_error():
